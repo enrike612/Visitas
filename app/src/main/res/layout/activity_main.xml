@@ -1,11 +1,49 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    android:orientation="vertical">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etNombreUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etNombreUsuario"
+        android:layout_marginTop="@dimen/etNombreUsuarioMarginTopBottom"
+        android:layout_marginBottom="@dimen/etNombreUsuarioMarginTopBottom"
+        android:layout_marginLeft="@dimen/etNombreUsuarioMarginLeftRight"
+        android:layout_marginRight="@dimen/etNombreUsuarioMarginLeftRight"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/etColorTextFormLogin"/>
 
-</RelativeLayout>
+    <EditText
+        android:id="@+id/etClaveUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese Clave"
+        android:layout_marginTop="@dimen/etClaveUsuarioMarginTopBottom"
+        android:layout_marginBottom="@dimen/etClaveUsuarioMarginTopBottom"
+        android:layout_marginLeft="@dimen/etClaveUsuarioMarginLeftRight"
+        android:layout_marginRight="@dimen/etClaveUsuarioMarginLeftRight"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/etColorTextFormLogin"
+        android:password="true"/>
+
+
+    <Button
+        android:id="@+id/btLoginMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/btLoginMarginTopBottom"
+        android:layout_marginTop="@dimen/btLoginMarginTopBottom"
+        android:layout_marginRight="@dimen/btLoginMarginLeftRight"
+        android:layout_marginLeft="@dimen/btLoginMarginLeftRight"
+        android:gravity="center"
+        android:background="#009688"
+        android:text="@string/btLogin"/>
+</LinearLayout>

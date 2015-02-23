@@ -4,5 +4,7 @@
     <string name="app_name">Visitas</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+    <string name="btLogin">INICIAR SESION</string>
+    <string name="etNombreUsuario">Ingrese Usuario</string>
+    <string name="etClaveUsuario">Ingrese Clave</string>
 </resources>
