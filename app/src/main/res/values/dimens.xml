@@ -8,4 +8,13 @@
     <dimen name="etClaveUsuarioMarginLeftRight">12dp</dimen>
     <dimen name="btLoginMarginTopBottom">45dp</dimen>
     <dimen name="btLoginMarginLeftRight">15dp</dimen>
+
+
+    <!-- Dimensiones para el formulario layout-land. -->
+    <dimen name="etNombreUsuarioMarginTopBottom_land">25dp</dimen>
+    <dimen name="etNombreUsuarioMarginLeftRight_land">12dp</dimen>
+    <dimen name="etClaveUsuarioMarginTopBottom_land">25dp</dimen>
+    <dimen name="etClaveUsuarioMarginLeftRight_land">12dp</dimen>
+    <dimen name="btLoginMarginTopBottom_land">25dp</dimen>
+    <dimen name="btLoginMarginLeftRight_land">15dp</dimen>
 </resources>
