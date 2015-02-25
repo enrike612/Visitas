@@ -5,5 +5,5 @@ package android.visitas.entities;
  */
 public class TEst {
 private Integer campo;
-
+private Integer campo2;
 }
