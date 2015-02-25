@@ -23,6 +23,7 @@ public class visita {
     }
 
 
+
     public int getIdVisita() {
         return idVisita;
     }

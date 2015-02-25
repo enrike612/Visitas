@@ -16,6 +16,7 @@ public class persona {
     }
 
 
+
     public int getIdPersona() {
         return idPersona;
     }

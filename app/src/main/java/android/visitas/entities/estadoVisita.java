@@ -12,6 +12,7 @@ public class estadoVisita {
     }
 
 
+
     public int getIdEstadoVisita() {
         return idEstadoVisita;
     }

@@ -20,6 +20,7 @@ public class movimientoVisita {
 
     }
 
+
     public int getIdMovimientoVisita() {
         return idMovimientoVisita;
     }

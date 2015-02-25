@@ -11,6 +11,7 @@ public class distrito {
     }
 
 
+
     public int getIdDistrito() {
         return idDistrito;
     }

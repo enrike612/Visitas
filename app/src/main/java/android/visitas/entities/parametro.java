@@ -15,6 +15,7 @@ public class parametro {
     }
 
 
+
     public int getIdParametro() {
         return idParametro;
     }

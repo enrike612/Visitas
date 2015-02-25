@@ -12,6 +12,7 @@ public class tipoDocumento {
     }
 
 
+
     public int getIdTipoDocumento() {
         return idTipoDocumento;
     }
