@@ -19,6 +19,7 @@ public class cliente {
     private String longitud;
     private String altitud;
 
+
     public cliente() {
     }
 
