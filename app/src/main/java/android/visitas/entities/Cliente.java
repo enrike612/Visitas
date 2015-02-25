@@ -6,13 +6,12 @@ package android.visitas.entities;
 public class Cliente {
     private String pruebita;
 
+
     public Cliente(String pruebita) {
         this.pruebita = pruebita;
     }
 
-    public String getPruebita() {
-        return pruebita;
-    }
+
 
     public void setPruebita(String pruebita) {
         this.pruebita = pruebita;
