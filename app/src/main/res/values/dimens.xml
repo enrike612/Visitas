@@ -15,6 +15,6 @@
     <dimen name="etNombreUsuarioMarginLeftRight_land">12dp</dimen>
     <dimen name="etClaveUsuarioMarginTopBottom_land">25dp</dimen>
     <dimen name="etClaveUsuarioMarginLeftRight_land">12dp</dimen>
-    <dimen name="btLoginMarginTopBottom_land">25dp</dimen>
+    <dimen name="btLoginMarginTopBottom_land">24dp</dimen>
     <dimen name="btLoginMarginLeftRight_land">15dp</dimen>
 </resources>
