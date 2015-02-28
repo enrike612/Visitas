@@ -7,4 +7,5 @@
     <string name="btLogin">INICIAR SESION</string>
     <string name="etNombreUsuario">Ingrese Usuario</string>
     <string name="etClaveUsuario">Ingrese Clave</string>
+    <string name="etClaveUsuarioLand">Ingrese Clave</string>
 </resources>
