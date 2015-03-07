@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CategoriaNombre">
+        <item>Carnes</item>
+        <item>Lacteos</item>
+        <item>Cereales</item>
+        <item>Vegetales</item>
+        <item>Bebidas</item>
+    </string-array>
+    <string-array name="CategoriaDescripcion">
+        <item>Descripción de carnes</item>
+        <item>Descripción de lacteos</item>
+        <item>Descripción de cereales</item>
+        <item>Descripción de vegetales</item>
+        <item>Descripción de bebidas</item>
+    </string-array>
+</resources>

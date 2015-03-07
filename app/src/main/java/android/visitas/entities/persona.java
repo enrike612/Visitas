@@ -10,12 +10,23 @@ public class persona {
     private String apellidos;
     private int idTipoDocumento;
     private String nroDocumento;
+    private String usuario;
+    private String clave;
 
     public persona() {
 
     }
 
-
+    public persona(int idPersona, int tipoPermiso, String nombres, String apellidos, int idTipoDocumento, String nroDocumento, String usuario, String clave) {
+        this.idPersona = idPersona;
+        this.tipoPermiso = tipoPermiso;
+        this.nombres = nombres;
+        this.apellidos = apellidos;
+        this.idTipoDocumento = idTipoDocumento;
+        this.nroDocumento = nroDocumento;
+        this.usuario = usuario;
+        this.clave = clave;
+    }
 
     public int getIdPersona() {
         return idPersona;
@@ -63,5 +74,21 @@ public class persona {
 
     public void setNroDocumento(String nroDocumento) {
         this.nroDocumento = nroDocumento;
+    }
+
+    public String getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
+    }
+
+    public String getClave() {
+        return clave;
+    }
+
+    public void setClave(String clave) {
+        this.clave = clave;
     }
 }

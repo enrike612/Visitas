@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spTipoPersona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etNombreEmpleado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre Empleado" />
+
+        <EditText
+            android:id="@+id/etApellidoEmpleado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Apellido Empleado" />
+
+        <Spinner
+            android:id="@+id/spTipoDocumento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etDNIEmpleado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="DNI Empleado"
+            android:inputType="number"
+            android:maxLength="8" />
+
+        <EditText
+            android:id="@+id/etUsuarioNuevo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usuario" />
+
+        <EditText
+            android:id="@+id/etClaveNueva"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Clave"
+            android:maxLength="12"
+            android:password="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btRegistrarUsuario"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Registrar" />
+
+            <Button
+                android:id="@+id/btCancelarRegistro"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cancelar" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btVistaEmpleado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lista Empleado" />
+    </LinearLayout>
+
+</LinearLayout>
